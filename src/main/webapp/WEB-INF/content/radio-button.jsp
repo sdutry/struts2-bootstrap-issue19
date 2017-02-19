@@ -17,7 +17,7 @@
     <body>
         <div class="container">
             <s:form action="index" enctype="multipart/form-data" theme="bootstrap" cssClass="form-horizontal" label="A sample horizontal Form">
-                <s:radio tooltip="Choose your Best Friend" label="Best Friend" list="{'Wes', 'Patrick', 'Jason', 'Jay', 'Toby', 'Rene'}" name="myRadio" cssErrorClass="foo"/>
+                <s:radio tooltip="Choose your Best Friend" cssClass="bla" cssStyle="background-color:#00FF00;" title="myTitle" label="Best Friend" list="{'Wes', 'Patrick', 'Jason', 'Jay', 'Toby', 'Rene'}" name="myRadio" cssErrorClass="foo"/>
             </s:form>
 	</div>
     </body>
