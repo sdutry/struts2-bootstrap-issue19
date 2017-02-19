@@ -17,7 +17,7 @@
     <body>
         <div class="container">
             <s:form action="index" enctype="multipart/form-data" theme="bootstrap" cssClass="form-horizontal" label="A sample horizontal Form">
-                <s:checkbox tooltip="Confirmed that your are Over 18" label="Age 18+" name="myCheckbox"/>
+                <s:checkbox cssClass="bla" cssStyle="background-color:#00FF00;" tooltip="Confirmed that your are Over 18" label="Age 18+" name="myCheckbox"/>
             </s:form>
 	</div>
     </body>
